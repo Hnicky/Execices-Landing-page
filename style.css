@@ -1,0 +1,108 @@
+body {
+  font-family: 'Libre Franklin', sans-serif; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+#main-nav {
+  background-color: #042f3f;
+  width: 100%;
+  font-size: 18px;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%; }
+  #main-nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%; }
+  #main-nav li {
+    list-style: none; }
+
+.lead-banner {
+  width: 100%;
+  position: relative; }
+  .lead-banner .banner-content .wrapper .title {
+    font-size: 100px;
+    color: white;
+    margin-top: -47%;
+    margin-left: 50%;
+    position: absolute; }
+  .lead-banner .banner-content .wrapper .sub-title {
+    font-size: 80px;
+    font-weight: lighter;
+    color: white;
+    margin-top: -40%;
+    margin-left: 42%;
+    position: absolute; }
+
+#services {
+  background-color: #f8f9fb;
+  width: 100%;
+  padding: 1%; }
+  #services .wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: list-style; }
+  #services .wrapper ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-right: 7%; }
+  #services .wrapper li {
+    list-style: none;
+    width: 10%; }
+    #services .wrapper li img {
+      width: 150%; }
+    #services .wrapper li a {
+      color: #033c6b; }
+
+.lessons-banner {
+  width: 100%; }
+  .lessons-banner img {
+    position: relative; }
+  .lessons-banner .banner-content .wrapper .title {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    margin-top: -55%;
+    margin-left: 4%;
+    position: absolute; }
+  .lessons-banner .banner-content .wrapper .sub-title {
+    font-size: 90px;
+    color: white;
+    margin-top: -48%;
+    margin-left: 4%;
+    position: absolute; }
+  .lessons-banner .banner-content .wrapper ul {
+    position: absolute; }
+    .lessons-banner .banner-content .wrapper ul li {
+      font-size: 25px;
+      color: white;
+      margin-top: -65%;
+      margin-left: 4%;
+      margin-bottom: 40%;
+      list-style: none; }
+
+#projects {
+  margin-left: 20%;
+  margin-right: 20%; }
+  #projects .wrapper {
+    width: 100%; }
+    #projects .wrapper h1 {
+      text-align: center; }
+    #projects .wrapper ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      #projects .wrapper ul li {
+        list-style: none;
+        width: 150px;
+        height: 150px;
+        margin-right: 5px;
+        margin-bottom: 15px; }
+        #projects .wrapper ul li a {
+          text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
